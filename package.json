@@ -1,0 +1,23 @@
+{
+  "name": "ai-with-claude-chapter-1",
+  "version": "1.0.0",
+  "description": "Playwright E2E testing with Claude and AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing",
+    "ai",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^latest"
+  }
+}
